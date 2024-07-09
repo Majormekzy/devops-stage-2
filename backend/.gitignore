@@ -6,3 +6,59 @@ app.egg-info
 htmlcov
 .cache
 .venv
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+build/
+dist/
+*.log
+
+# Dependency directories
+frontend/node_modules/
+backend/.venv/
+backend/__pycache__/
+backend/instance/
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/pyproject.toml.lock
+
+# Python compiled files
+*.py[cod]
+*.egg
+*.egg-info/
+*.swp
+*.bak
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+
+# Virtual environment
+venv/
+.env
+frontend/.env
+backend/.env
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# VSCode
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Nginx Proxy Manager
+nginx/data/
+nginx/letsencrypt/
+
